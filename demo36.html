@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>OOPS3</title>
+        <script>
+            //paramerized Construtor
+         class Product
+         {
+            constructor(id,category,name,cost)
+            {
+                this.pid=id
+                this.pcategory=category
+                this.pname=name
+                this.pcost=cost
+            }
+         
+         display()
+               {
+                 document.writeln("Product ID="+this.pid+"</br>")
+                 document.writeln("Product Category="+this.pcategory+"</br>")
+                 document.writeln("Product Name="+this.pname+"</br>")
+                 document.writeln("Product Cosr="+this.pcost+"</br>")
+               }
+            }
+        
+
+        let p1 = new Product(101,"book","MSWD",280.5)
+        p1.display()
+        let p2 = new Product(102,"clothes","saree",2000)
+        p2.display()
+
+
+        </script>
+    </head>
+    <body>
+      
+    </body>
+</html>
